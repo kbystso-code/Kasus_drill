@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Kasus-Drill (Subjekt / Akkusativ)</title>
+  <link rel="stylesheet" href="style.css?v=4" />
+  <script src="app.js?v=4"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="title">Kasus-Drill</div>
+
+    <div class="gender">
+      <button class="gbtn active" data-gender="m">Maskulin</button>
+      <button class="gbtn" data-gender="f">Feminin</button>
+      <button class="gbtn" data-gender="n">Neutrum</button>
+    </div>
+
+    <div class="score">
+      <span id="scoreText">0 / 0</span>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <div class="questionRow">
+        <div class="qLabel">Frage</div>
+        <div class="qText" id="questionText">—</div>
+      </div>
+
+      <div class="sentence" id="sentencePanels" aria-label="Sentence panels"></div>
+
+      <div class="feedback" id="feedback"></div>
+
+      <div class="result" id="resultBox" hidden>
+        <div class="resultLine" id="resultSubj"></div>
+        <div class="resultLine" id="resultAkk"></div>
+      </div>
+
+      <div class="controls">
+        <button id="startBtn" class="primary">Start</button>
+        <button id="nextBtn" class="secondary" disabled>Next</button>
+        <button id="repeatBtn" class="ghost" disabled>Wiederholen</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="data_m.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

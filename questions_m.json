@@ -1,0 +1,422 @@
+[
+  {
+    "id": "m001",
+    "variants": [
+      { "parts": ["Der Junge", "sieht", "den Hund"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Hund", "sieht", "der Junge"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m002",
+    "variants": [
+      { "parts": ["Der Mann", "trinkt", "den Kaffee"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Kaffee", "trinkt", "der Mann"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m003",
+    "variants": [
+      { "parts": ["Der Vater", "nimmt", "den Zug"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Zug", "nimmt", "der Vater"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m004",
+    "variants": [
+      { "parts": ["Der Lehrer", "hat", "den Stift"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Stift", "hat", "der Lehrer"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m005",
+    "variants": [
+      { "parts": ["Der Student", "liest", "den Roman"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Roman", "liest", "der Student"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m006",
+    "variants": [
+      { "parts": ["Der Bruder", "sucht", "den Schlüssel"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Schlüssel", "sucht", "der Bruder"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m007",
+    "variants": [
+      { "parts": ["Der Arzt", "findet", "den Plan"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Plan", "findet", "der Arzt"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m008",
+    "variants": [
+      { "parts": ["Der Nachbar", "öffnet", "den Schrank"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Schrank", "öffnet", "der Nachbar"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m009",
+    "variants": [
+      { "parts": ["Der Hund", "frisst", "den Käse"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Käse", "frisst", "der Hund"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m010",
+    "variants": [
+      { "parts": ["Der Freund", "mag", "den Film"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Film", "mag", "der Freund"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m011",
+    "variants": [
+      { "parts": ["Der Polizist", "sieht", "den Mann"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Mann", "sieht", "der Polizist"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m012",
+    "variants": [
+      { "parts": ["Der Fahrer", "bringt", "den Koffer"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Koffer", "bringt", "der Fahrer"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m013",
+    "variants": [
+      { "parts": ["Der Koch", "macht", "den Kuchen"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Kuchen", "macht", "der Koch"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m014",
+    "variants": [
+      { "parts": ["Der Sänger", "hört", "den Chor"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Chor", "hört", "der Sänger"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m015",
+    "variants": [
+      { "parts": ["Der Bäcker", "verkauft", "den Kuchen"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Kuchen", "verkauft", "der Bäcker"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m016",
+    "variants": [
+      { "parts": ["Der Pilot", "sieht", "den Turm"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Turm", "sieht", "der Pilot"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m017",
+    "variants": [
+      { "parts": ["Der König", "trägt", "den Mantel"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Mantel", "trägt", "der König"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m018",
+    "variants": [
+      { "parts": ["Der Ritter", "hat", "den Schild"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Schild", "hat", "der Ritter"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m019",
+    "variants": [
+      { "parts": ["Der Bauer", "füttert", "den Hund"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Hund", "füttert", "der Bauer"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m020",
+    "variants": [
+      { "parts": ["Der Gärtner", "gießt", "den Baum"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Baum", "gießt", "der Gärtner"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m021",
+    "variants": [
+      { "parts": ["Der Verkäufer", "zeigt", "den Preis"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Preis", "zeigt", "der Verkäufer"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m022",
+    "variants": [
+      { "parts": ["Der Sportler", "nimmt", "den Ball"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Ball", "nimmt", "der Sportler"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m023",
+    "variants": [
+      { "parts": ["Der Spieler", "wirft", "den Ball"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Ball", "wirft", "der Spieler"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m024",
+    "variants": [
+      { "parts": ["Der Tourist", "besucht", "den Park"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Park", "besucht", "der Tourist"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m025",
+    "variants": [
+      { "parts": ["Der Kunde", "kauft", "den Computer"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Computer", "kauft", "der Kunde"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m026",
+    "variants": [
+      { "parts": ["Der Junge", "findet", "den Ball"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Ball", "findet", "der Junge"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m027",
+    "variants": [
+      { "parts": ["Der Mann", "liest", "den Brief"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Brief", "liest", "der Mann"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m028",
+    "variants": [
+      { "parts": ["Der Vater", "holt", "den Rucksack"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Rucksack", "holt", "der Vater"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m029",
+    "variants": [
+      { "parts": ["Der Lehrer", "schreibt", "den Brief"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Brief", "schreibt", "der Lehrer"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m030",
+    "variants": [
+      { "parts": ["Der Student", "benutzt", "den Computer"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Computer", "benutzt", "der Student"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m031",
+    "variants": [
+      { "parts": ["Der Bruder", "sieht", "den Film"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Film", "sieht", "der Bruder"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m032",
+    "variants": [
+      { "parts": ["Der Arzt", "braucht", "den Termin"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Termin", "braucht", "der Arzt"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m033",
+    "variants": [
+      { "parts": ["Der Nachbar", "hat", "den Schlüssel"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Schlüssel", "hat", "der Nachbar"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m034",
+    "variants": [
+      { "parts": ["Der Hund", "sieht", "den Ball"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Ball", "sieht", "der Hund"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m035",
+    "variants": [
+      { "parts": ["Der Freund", "bringt", "den Saft"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Saft", "bringt", "der Freund"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m036",
+    "variants": [
+      { "parts": ["Der Polizist", "sucht", "den Ausweis"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Ausweis", "sucht", "der Polizist"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m037",
+    "variants": [
+      { "parts": ["Der Fahrer", "öffnet", "den Koffer"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Koffer", "öffnet", "der Fahrer"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m038",
+    "variants": [
+      { "parts": ["Der Koch", "isst", "den Fisch"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Fisch", "isst", "der Koch"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m039",
+    "variants": [
+      { "parts": ["Der Sänger", "liebt", "den Jazz"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Jazz", "liebt", "der Sänger"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m040",
+    "variants": [
+      { "parts": ["Der Bäcker", "backt", "den Kuchen"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Kuchen", "backt", "der Bäcker"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m041",
+    "variants": [
+      { "parts": ["Ich", "sehe", "den Hund"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Hund", "sehe", "ich"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m042",
+    "variants": [
+      { "parts": ["Du", "siehst", "den Film"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Film", "siehst", "du"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m043",
+    "variants": [
+      { "parts": ["Er", "liest", "den Roman"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Roman", "liest", "er"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m044",
+    "variants": [
+      { "parts": ["Sie", "kauft", "den Apfel"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Apfel", "kauft", "sie"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m045",
+    "variants": [
+      { "parts": ["Es", "mag", "den Käse"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Käse", "mag", "es"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m046",
+    "variants": [
+      { "parts": ["Ich", "brauche", "den Schlüssel"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Schlüssel", "brauche", "ich"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m047",
+    "variants": [
+      { "parts": ["Du", "nimmst", "den Zug"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Zug", "nimmst", "du"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m048",
+    "variants": [
+      { "parts": ["Er", "trinkt", "den Kaffee"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Kaffee", "trinkt", "er"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m049",
+    "variants": [
+      { "parts": ["Sie", "findet", "den Ball"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Ball", "findet", "sie"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m050",
+    "variants": [
+      { "parts": ["Es", "hört", "den Lärm"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Lärm", "hört", "es"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m051",
+    "variants": [
+      { "parts": ["Ich", "öffne", "den Schrank"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Schrank", "öffne", "ich"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m052",
+    "variants": [
+      { "parts": ["Du", "schließt", "den Schrank"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Schrank", "schließt", "du"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m053",
+    "variants": [
+      { "parts": ["Er", "bringt", "den Brief"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Brief", "bringt", "er"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m054",
+    "variants": [
+      { "parts": ["Sie", "schreibt", "den Brief"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Brief", "schreibt", "sie"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m055",
+    "variants": [
+      { "parts": ["Es", "frisst", "den Fisch"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Fisch", "frisst", "es"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m056",
+    "variants": [
+      { "parts": ["Ich", "kenne", "den Arzt"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Arzt", "kenne", "ich"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m057",
+    "variants": [
+      { "parts": ["Du", "suchst", "den Park"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Park", "suchst", "du"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m058",
+    "variants": [
+      { "parts": ["Er", "holt", "den Rucksack"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Rucksack", "holt", "er"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m059",
+    "variants": [
+      { "parts": ["Sie", "trägt", "den Schal"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Schal", "trägt", "sie"], "subj": 2, "akk": 0 }
+    ]
+  },
+  {
+    "id": "m060",
+    "variants": [
+      { "parts": ["Es", "sieht", "den Spiegel"], "subj": 0, "akk": 2 },
+      { "parts": ["Den Spiegel", "sieht", "es"], "subj": 2, "akk": 0 }
+    ]
+  }
+]
