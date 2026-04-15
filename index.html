@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>Kasus-Drill (Subjekt / Akkusativ)</title>
   <link rel="stylesheet" href="style.css?v=4" />
-  <script src="app.js?v=4"></script>
 </head>
 <body>
   <header class="topbar">
@@ -19,8 +18,10 @@
       <button class="gbtn" data-gender="n">Neutrum</button>
     </div>
 
-    <div class="score">
-      <span id="scoreText">0 / 0</span>
+    <div class="score" aria-label="Ergebniszaehler">
+      <span id="correctStat" class="miniStat correctStat">○ 0</span>
+      <span id="wrongStat" class="miniStat wrongStat">× 0</span>
+      <span id="progressStat" class="miniStat progressStat">0 / 20</span>
     </div>
   </header>
 
@@ -47,8 +48,6 @@
       </div>
     </section>
   </main>
-
-  <script src="data_m.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

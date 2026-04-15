@@ -7,7 +7,9 @@
     card: $(".card"),
     questionRow: $(".questionRow"),
     genderBtns: document.querySelectorAll(".gbtn"),
-    scoreText: $("#scoreText"),
+    correctStat: $("#correctStat"),
+    wrongStat: $("#wrongStat"),
+    progressStat: $("#progressStat"),
     questionText: $("#questionText"),
     sentencePanels: $("#sentencePanels"),
     feedback: $("#feedback"),
@@ -27,6 +29,8 @@
 
   const SET_SIZE = 20;
   const HALF = 10;
+  const KIDS_APP_PROGRESS_KEY = "kids-app-study-progress-v1";
+  const KIDS_APP_APP_ID = "kasus";
 
   const state = {
     gender: "m",
@@ -38,7 +42,10 @@
 
     // set control
     setPos: -1,      // -1 before start, 0..19 during set
-    correct: 0,      // number of correctly solved questions in the set
+    correct: 0,      // questions answered correctly on the first try
+    wrong: 0,        // questions that needed at least one retry
+    practiceMode: false,
+    missedCurrent: false,
   };
 
   function setFeedback(text, kind) {
@@ -49,7 +56,34 @@
 
   function setHeaderStatus() {
     const q = (state.setPos >= 0) ? (state.setPos + 1) : 0;
-    els.scoreText.textContent = `Q ${q}/${SET_SIZE}  ✓${state.correct}`;
+    els.correctStat.textContent = `○ ${state.correct}`;
+    els.wrongStat.textContent = `× ${state.wrong}`;
+    els.progressStat.textContent = `${q} / ${SET_SIZE}`;
+    reportKidsAppProgress(state.correct);
+  }
+
+  function getKidsAppTodayKey() {
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = String(now.getMonth() + 1).padStart(2, "0");
+    const day = String(now.getDate()).padStart(2, "0");
+    return `${year}-${month}-${day}`;
+  }
+
+  function reportKidsAppProgress(correctCount) {
+    try {
+      const today = getKidsAppTodayKey();
+      const raw = JSON.parse(localStorage.getItem(KIDS_APP_PROGRESS_KEY) || "{}");
+      raw[today] ??= {};
+
+      const prev = Number(raw[today][KIDS_APP_APP_ID]?.correct) || 0;
+      raw[today][KIDS_APP_APP_ID] = {
+        correct: Math.max(prev, Math.max(0, Math.floor(Number(correctCount) || 0))),
+        updatedAt: new Date().toISOString(),
+      };
+
+      localStorage.setItem(KIDS_APP_PROGRESS_KEY, JSON.stringify(raw));
+    } catch {}
   }
 
   function resetUIForNewQuestion() {
@@ -131,9 +165,10 @@
     [...els.sentencePanels.querySelectorAll(".panel")].forEach(p => p.classList.remove("ng"));
 
     if (idx === expected) {
-      // count only when the question is solved correctly
-      state.correct += 1;
-      setHeaderStatus();
+      if (!state.practiceMode && !state.missedCurrent) {
+        state.correct += 1;
+        setHeaderStatus();
+      }
 
       lockPanels(true);
       btnEl.classList.add("ok");
@@ -145,6 +180,12 @@
       els.nextBtn.disabled = false;
       els.repeatBtn.disabled = false;
     } else {
+      if (!state.practiceMode && !state.missedCurrent) {
+        state.missedCurrent = true;
+        state.wrong += 1;
+        setHeaderStatus();
+      }
+
       btnEl.classList.add("ng");
       setFeedback("Nicht ganz. Versuche es noch einmal.", "ng");
     }
@@ -214,6 +255,8 @@
 
     state.currentItem = pickRandom(bank);
     state.currentVariant = pickRandom(state.currentItem.variants);
+    state.practiceMode = false;
+    state.missedCurrent = false;
 
     lockPanels(false);
     setQuestionText();
@@ -239,6 +282,7 @@
 
     resetUIForNewQuestion();
     setPhaseStyle();
+    state.practiceMode = true;
     lockPanels(false);
     setQuestionText();
     renderPanels();
@@ -266,7 +310,10 @@
 
   els.startBtn.addEventListener("click", async () => {
     state.correct = 0;
+    state.wrong = 0;
     state.setPos = 0;
+    state.practiceMode = false;
+    state.missedCurrent = false;
     setHeaderStatus();
 
     await ensureBankLoaded(state.gender);
