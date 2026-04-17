@@ -96,7 +96,7 @@ body{
   background:rgba(255,255,255,.03);
 }
 
-/* Phase color (1–10: Subjekt / 11–20: Akkusativ) */
+/* Prompt color (current tap target: Subjekt / Akkusativ) */
 .questionRow.phase-subj{
   border-color: rgba(35,196,131,.70);
   background: rgba(35,196,131,.08);
@@ -179,14 +179,14 @@ button:disabled{opacity:.5; pointer-events:none;}
 .secondary{background:rgba(255,255,255,.06);}
 .ghost{background:transparent;}
 
-/* === Phase color (background clearly visible) === */
-/* 1–10: Subjekt */
+/* === Prompt color (background clearly visible) === */
+/* Subjekt */
 .questionRow.phase-subj{
   border-color: rgba(35,196,131,.95) !important;
   background-color: rgba(35,196,131,.35) !important;  /* ← はっきり見える */
 }
 
-/* 11–20: Akkusativ */
+/* Akkusativ */
 .questionRow.phase-akk{
   border-color: rgba(88,152,255,.95) !important;
   background-color: rgba(88,152,255,.35) !important;  /* ← はっきり見える */

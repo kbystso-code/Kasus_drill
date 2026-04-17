@@ -28,7 +28,6 @@
   };
 
   const SET_SIZE = 20;
-  const HALF = 10;
   const KIDS_APP_PROGRESS_KEY = "kids-app-study-progress-v1";
   const KIDS_APP_APP_ID = "kasus";
 
@@ -104,9 +103,9 @@
 
   function setPhaseStyle() {
     els.questionRow.classList.remove("phase-subj", "phase-akk");
-    if (state.setPos >= 0 && state.setPos < HALF) {
+    if (state.askType === "SUBJ") {
       els.questionRow.classList.add("phase-subj");
-    } else if (state.setPos >= HALF && state.setPos < SET_SIZE) {
+    } else if (state.askType === "AKK") {
       els.questionRow.classList.add("phase-akk");
     }
   }
@@ -117,10 +116,6 @@
 
   function setQuestionText() {
     const verb = getVerbFromVariant(state.currentVariant);
-
-    // askType fixed by set position: 1–10 SUBJ, 11–20 AKK
-    if (state.setPos < HALF) state.askType = "SUBJ";
-    else state.askType = "AKK";
 
     if (state.askType === "SUBJ") {
       els.questionText.textContent = `Wer oder was ${verb}?  → Subjekt markieren`;
@@ -156,6 +151,12 @@
     panels[v.akk]?.classList.add("ok");
   }
 
+  function advancePrompt() {
+    state.askType = (state.askType === "SUBJ") ? "AKK" : "SUBJ";
+    setPhaseStyle();
+    setQuestionText();
+  }
+
   function onPick(idx, btnEl) {
     if (state.locked) return;
 
@@ -165,13 +166,21 @@
     [...els.sentencePanels.querySelectorAll(".panel")].forEach(p => p.classList.remove("ng"));
 
     if (idx === expected) {
-      if (!state.practiceMode && !state.missedCurrent) {
-        state.correct += 1;
-        setHeaderStatus();
+      btnEl.classList.add("ok");
+      btnEl.classList.remove("ng");
+
+      if (state.askType === "SUBJ") {
+        setFeedback("Richtig! Jetzt das Akkusativobjekt markieren.", "ok");
+        advancePrompt();
+        return;
       }
 
+      if (!state.practiceMode && !state.missedCurrent) {
+        state.correct += 1;
+      }
+      setHeaderStatus();
+
       lockPanels(true);
-      btnEl.classList.add("ok");
       setFeedback("Richtig!", "ok");
 
       showResult();
@@ -251,13 +260,13 @@
       return;
     }
 
-    setPhaseStyle();
-
     state.currentItem = pickRandom(bank);
     state.currentVariant = pickRandom(state.currentItem.variants);
+    state.askType = "SUBJ";
     state.practiceMode = false;
     state.missedCurrent = false;
 
+    setPhaseStyle();
     lockPanels(false);
     setQuestionText();
     renderPanels();
@@ -281,8 +290,10 @@
     if (!state.currentItem || !state.currentVariant) return;
 
     resetUIForNewQuestion();
+    state.askType = "SUBJ";
     setPhaseStyle();
     state.practiceMode = true;
+    state.missedCurrent = false;
     lockPanels(false);
     setQuestionText();
     renderPanels();
