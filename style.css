@@ -118,21 +118,23 @@ body{
 
 .sentence{
   display:flex;
-  gap:12px;
-  flex-wrap:wrap;
+  gap:8px;
+  flex-wrap:nowrap;
   margin-top:14px;
+  overflow-x:auto;
 }
 
 .panel{
-  flex:1 1 160px;
-  min-width:160px;
-  padding:18px 14px;
+  flex:1 1 0;
+  min-width:0;
+  padding:16px 10px;
   border-radius:18px;
   border:1px solid var(--line);
   background:var(--btn2);
-  font-size:20px;
+  font-size:clamp(12px, 2.2vw, 18px);
   font-weight:900;
   text-align:center;
+  line-height:1.2;
   user-select:none;
   -webkit-tap-highlight-color: transparent;
 }
