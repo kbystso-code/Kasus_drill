@@ -37,6 +37,7 @@
     currentItem: null,
     currentVariant: null,
     askType: null, // "SUBJ" | "AKK"
+    firstAskType: null,
     locked: false,
 
     // set control
@@ -114,6 +115,10 @@
     return v?.parts?.[1] || "…";
   }
 
+  function pickAskType() {
+    return Math.random() < 0.5 ? "SUBJ" : "AKK";
+  }
+
   function setQuestionText() {
     const verb = getVerbFromVariant(state.currentVariant);
 
@@ -166,11 +171,15 @@
     [...els.sentencePanels.querySelectorAll(".panel")].forEach(p => p.classList.remove("ng"));
 
     if (idx === expected) {
+      const isFirstStep = state.askType === state.firstAskType;
       btnEl.classList.add("ok");
       btnEl.classList.remove("ng");
 
-      if (state.askType === "SUBJ") {
-        setFeedback("Richtig! Jetzt das Akkusativobjekt markieren.", "ok");
+      if (isFirstStep) {
+        const nextLabel = (state.askType === "SUBJ")
+          ? "Akkusativobjekt"
+          : "Subjekt";
+        setFeedback(`Richtig! Jetzt das ${nextLabel} markieren.`, "ok");
         advancePrompt();
         return;
       }
@@ -210,7 +219,7 @@
       item && typeof item.id === "string" &&
       Array.isArray(item.variants) && item.variants.length > 0 &&
       item.variants.every(v =>
-        Array.isArray(v.parts) && v.parts.length === 3 &&
+        Array.isArray(v.parts) && v.parts.length === 5 &&
         Number.isInteger(v.subj) && Number.isInteger(v.akk)
       )
     );
@@ -262,7 +271,8 @@
 
     state.currentItem = pickRandom(bank);
     state.currentVariant = pickRandom(state.currentItem.variants);
-    state.askType = "SUBJ";
+    state.firstAskType = pickAskType();
+    state.askType = state.firstAskType;
     state.practiceMode = false;
     state.missedCurrent = false;
 
@@ -290,7 +300,7 @@
     if (!state.currentItem || !state.currentVariant) return;
 
     resetUIForNewQuestion();
-    state.askType = "SUBJ";
+    state.askType = state.firstAskType || "SUBJ";
     setPhaseStyle();
     state.practiceMode = true;
     state.missedCurrent = false;

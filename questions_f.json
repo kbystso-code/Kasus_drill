@@ -1,1 +1,1622 @@
-[{"id":"f001","variants":[{"parts":["Ich","sehe","die Katze"],"subj":0,"akk":2},{"parts":["die Katze","sehe","ich"],"subj":2,"akk":0}]},{"id":"f002","variants":[{"parts":["Du","kaufst","die Tasche"],"subj":0,"akk":2},{"parts":["die Tasche","kaufst","du"],"subj":2,"akk":0}]},{"id":"f003","variants":[{"parts":["Er","braucht","die Karte"],"subj":0,"akk":2},{"parts":["die Karte","braucht","er"],"subj":2,"akk":0}]},{"id":"f004","variants":[{"parts":["Sie","nimmt","die Tasche"],"subj":0,"akk":2},{"parts":["die Tasche","nimmt","sie"],"subj":2,"akk":0}]},{"id":"f005","variants":[{"parts":["Es","hat","die Uhr"],"subj":0,"akk":2},{"parts":["die Uhr","hat","es"],"subj":2,"akk":0}]},{"id":"f006","variants":[{"parts":["Ich","finde","die Tasche"],"subj":0,"akk":2},{"parts":["die Tasche","finde","ich"],"subj":2,"akk":0}]},{"id":"f007","variants":[{"parts":["Du","hörst","die Musik"],"subj":0,"akk":2},{"parts":["die Musik","hörst","du"],"subj":2,"akk":0}]},{"id":"f008","variants":[{"parts":["Er","öffnet","die Tür"],"subj":0,"akk":2},{"parts":["die Tür","öffnet","er"],"subj":2,"akk":0}]},{"id":"f009","variants":[{"parts":["Sie","schließt","die Tür"],"subj":0,"akk":2},{"parts":["die Tür","schließt","sie"],"subj":2,"akk":0}]},{"id":"f010","variants":[{"parts":["Es","trinkt","die Milch"],"subj":0,"akk":2},{"parts":["die Milch","trinkt","es"],"subj":2,"akk":0}]},{"id":"f011","variants":[{"parts":["Ich","esse","die Pizza"],"subj":0,"akk":2},{"parts":["die Pizza","esse","ich"],"subj":2,"akk":0}]},{"id":"f012","variants":[{"parts":["Du","liest","die Zeitung"],"subj":0,"akk":2},{"parts":["die Zeitung","liest","du"],"subj":2,"akk":0}]},{"id":"f013","variants":[{"parts":["Er","sucht","die Brille"],"subj":0,"akk":2},{"parts":["die Brille","sucht","er"],"subj":2,"akk":0}]},{"id":"f014","variants":[{"parts":["Sie","bringt","die Flasche"],"subj":0,"akk":2},{"parts":["die Flasche","bringt","sie"],"subj":2,"akk":0}]},{"id":"f015","variants":[{"parts":["Es","holt","die Jacke"],"subj":0,"akk":2},{"parts":["die Jacke","holt","es"],"subj":2,"akk":0}]},{"id":"f016","variants":[{"parts":["Ich","mag","die Musik"],"subj":0,"akk":2},{"parts":["die Musik","mag","ich"],"subj":2,"akk":0}]},{"id":"f017","variants":[{"parts":["Du","kennst","die Stadt"],"subj":0,"akk":2},{"parts":["die Stadt","kennst","du"],"subj":2,"akk":0}]},{"id":"f018","variants":[{"parts":["Er","schreibt","die Nummer"],"subj":0,"akk":2},{"parts":["die Nummer","schreibt","er"],"subj":2,"akk":0}]},{"id":"f019","variants":[{"parts":["Sie","lernt","die Sprache"],"subj":0,"akk":2},{"parts":["die Sprache","lernt","sie"],"subj":2,"akk":0}]},{"id":"f020","variants":[{"parts":["Es","zeigt","die Karte"],"subj":0,"akk":2},{"parts":["die Karte","zeigt","es"],"subj":2,"akk":0}]},{"id":"f021","variants":[{"parts":["Ich","sehe","die Sonne"],"subj":0,"akk":2},{"parts":["die Sonne","sehe","ich"],"subj":2,"akk":0}]},{"id":"f022","variants":[{"parts":["Du","kaufst","die Banane"],"subj":0,"akk":2},{"parts":["die Banane","kaufst","du"],"subj":2,"akk":0}]},{"id":"f023","variants":[{"parts":["Er","braucht","die Antwort"],"subj":0,"akk":2},{"parts":["die Antwort","braucht","er"],"subj":2,"akk":0}]},{"id":"f024","variants":[{"parts":["Sie","nimmt","die Karte"],"subj":0,"akk":2},{"parts":["die Karte","nimmt","sie"],"subj":2,"akk":0}]},{"id":"f025","variants":[{"parts":["Es","hat","die Tasche"],"subj":0,"akk":2},{"parts":["die Tasche","hat","es"],"subj":2,"akk":0}]},{"id":"f026","variants":[{"parts":["Ich","finde","die Katze"],"subj":0,"akk":2},{"parts":["die Katze","finde","ich"],"subj":2,"akk":0}]},{"id":"f027","variants":[{"parts":["Du","hörst","die Musik"],"subj":0,"akk":2},{"parts":["die Musik","hörst","du"],"subj":2,"akk":0}]},{"id":"f028","variants":[{"parts":["Er","öffnet","die Flasche"],"subj":0,"akk":2},{"parts":["die Flasche","öffnet","er"],"subj":2,"akk":0}]},{"id":"f029","variants":[{"parts":["Sie","schließt","die Tür"],"subj":0,"akk":2},{"parts":["die Tür","schließt","sie"],"subj":2,"akk":0}]},{"id":"f030","variants":[{"parts":["Es","trinkt","die Limonade"],"subj":0,"akk":2},{"parts":["die Limonade","trinkt","es"],"subj":2,"akk":0}]},{"id":"f031","variants":[{"parts":["Ich","esse","die Banane"],"subj":0,"akk":2},{"parts":["die Banane","esse","ich"],"subj":2,"akk":0}]},{"id":"f032","variants":[{"parts":["Du","liest","die Geschichte"],"subj":0,"akk":2},{"parts":["die Geschichte","liest","du"],"subj":2,"akk":0}]},{"id":"f033","variants":[{"parts":["Er","sucht","die Tasche"],"subj":0,"akk":2},{"parts":["die Tasche","sucht","er"],"subj":2,"akk":0}]},{"id":"f034","variants":[{"parts":["Sie","bringt","die Pizza"],"subj":0,"akk":2},{"parts":["die Pizza","bringt","sie"],"subj":2,"akk":0}]},{"id":"f035","variants":[{"parts":["Es","holt","die Flasche"],"subj":0,"akk":2},{"parts":["die Flasche","holt","es"],"subj":2,"akk":0}]},{"id":"f036","variants":[{"parts":["Ich","mag","die Pizza"],"subj":0,"akk":2},{"parts":["die Pizza","mag","ich"],"subj":2,"akk":0}]},{"id":"f037","variants":[{"parts":["Du","kennst","die Schule"],"subj":0,"akk":2},{"parts":["die Schule","kennst","du"],"subj":2,"akk":0}]},{"id":"f038","variants":[{"parts":["Er","schreibt","die Antwort"],"subj":0,"akk":2},{"parts":["die Antwort","schreibt","er"],"subj":2,"akk":0}]},{"id":"f039","variants":[{"parts":["Sie","lernt","die Regel"],"subj":0,"akk":2},{"parts":["die Regel","lernt","sie"],"subj":2,"akk":0}]},{"id":"f040","variants":[{"parts":["Es","zeigt","die Nummer"],"subj":0,"akk":2},{"parts":["die Nummer","zeigt","es"],"subj":2,"akk":0}]},{"id":"f041","variants":[{"parts":["Ich","sehe","die Straße"],"subj":0,"akk":2},{"parts":["die Straße","sehe","ich"],"subj":2,"akk":0}]},{"id":"f042","variants":[{"parts":["Du","kaufst","die Jacke"],"subj":0,"akk":2},{"parts":["die Jacke","kaufst","du"],"subj":2,"akk":0}]},{"id":"f043","variants":[{"parts":["Er","braucht","die Sprache"],"subj":0,"akk":2},{"parts":["die Sprache","braucht","er"],"subj":2,"akk":0}]},{"id":"f044","variants":[{"parts":["Sie","nimmt","die Brille"],"subj":0,"akk":2},{"parts":["die Brille","nimmt","sie"],"subj":2,"akk":0}]},{"id":"f045","variants":[{"parts":["Es","hat","die Brille"],"subj":0,"akk":2},{"parts":["die Brille","hat","es"],"subj":2,"akk":0}]},{"id":"f046","variants":[{"parts":["Ich","finde","die Nummer"],"subj":0,"akk":2},{"parts":["die Nummer","finde","ich"],"subj":2,"akk":0}]},{"id":"f047","variants":[{"parts":["Du","hörst","die Musik"],"subj":0,"akk":2},{"parts":["die Musik","hörst","du"],"subj":2,"akk":0}]},{"id":"f048","variants":[{"parts":["Er","öffnet","die Tür"],"subj":0,"akk":2},{"parts":["die Tür","öffnet","er"],"subj":2,"akk":0}]},{"id":"f049","variants":[{"parts":["Sie","schließt","die Tür"],"subj":0,"akk":2},{"parts":["die Tür","schließt","sie"],"subj":2,"akk":0}]},{"id":"f050","variants":[{"parts":["Es","trinkt","die Cola"],"subj":0,"akk":2},{"parts":["die Cola","trinkt","es"],"subj":2,"akk":0}]},{"id":"f051","variants":[{"parts":["Ich","esse","die Suppe"],"subj":0,"akk":2},{"parts":["die Suppe","esse","ich"],"subj":2,"akk":0}]},{"id":"f052","variants":[{"parts":["Du","liest","die Zeitung"],"subj":0,"akk":2},{"parts":["die Zeitung","liest","du"],"subj":2,"akk":0}]},{"id":"f053","variants":[{"parts":["Er","sucht","die Karte"],"subj":0,"akk":2},{"parts":["die Karte","sucht","er"],"subj":2,"akk":0}]},{"id":"f054","variants":[{"parts":["Sie","bringt","die Tasche"],"subj":0,"akk":2},{"parts":["die Tasche","bringt","sie"],"subj":2,"akk":0}]},{"id":"f055","variants":[{"parts":["Es","holt","die Tasche"],"subj":0,"akk":2},{"parts":["die Tasche","holt","es"],"subj":2,"akk":0}]},{"id":"f056","variants":[{"parts":["Ich","mag","die Sonne"],"subj":0,"akk":2},{"parts":["die Sonne","mag","ich"],"subj":2,"akk":0}]},{"id":"f057","variants":[{"parts":["Du","kennst","die Küche"],"subj":0,"akk":2},{"parts":["die Küche","kennst","du"],"subj":2,"akk":0}]},{"id":"f058","variants":[{"parts":["Er","schreibt","die Liste"],"subj":0,"akk":2},{"parts":["die Liste","schreibt","er"],"subj":2,"akk":0}]},{"id":"f059","variants":[{"parts":["Sie","lernt","die Geschichte"],"subj":0,"akk":2},{"parts":["die Geschichte","lernt","sie"],"subj":2,"akk":0}]},{"id":"f060","variants":[{"parts":["Es","zeigt","die Farbe"],"subj":0,"akk":2},{"parts":["die Farbe","zeigt","es"],"subj":2,"akk":0}]}]
+[
+  {
+    "id": "f001",
+    "variants": [
+      {
+        "parts": [
+          "Heute",
+          "sehe",
+          "ich",
+          "die Katze",
+          "im Park"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Katze",
+          "sehe",
+          "ich",
+          "heute",
+          "im Park"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f002",
+    "variants": [
+      {
+        "parts": [
+          "Am Morgen",
+          "kaufst",
+          "du",
+          "die Tasche",
+          "zu Hause"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Tasche",
+          "kaufst",
+          "du",
+          "am Morgen",
+          "zu Hause"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f003",
+    "variants": [
+      {
+        "parts": [
+          "Am Nachmittag",
+          "braucht",
+          "er",
+          "die Karte",
+          "in der Schule"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Karte",
+          "braucht",
+          "er",
+          "am Nachmittag",
+          "in der Schule"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f004",
+    "variants": [
+      {
+        "parts": [
+          "Am Abend",
+          "nimmt",
+          "sie",
+          "die Tasche",
+          "im Garten"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Tasche",
+          "nimmt",
+          "sie",
+          "am Abend",
+          "im Garten"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f005",
+    "variants": [
+      {
+        "parts": [
+          "Jeden Tag",
+          "hat",
+          "es",
+          "die Uhr",
+          "in der Kueche"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Uhr",
+          "hat",
+          "es",
+          "jeden Tag",
+          "in der Kueche"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f006",
+    "variants": [
+      {
+        "parts": [
+          "In der Pause",
+          "finde",
+          "ich",
+          "die Tasche",
+          "im Zimmer"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Tasche",
+          "finde",
+          "ich",
+          "in der Pause",
+          "im Zimmer"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f007",
+    "variants": [
+      {
+        "parts": [
+          "Nach der Schule",
+          "hörst",
+          "du",
+          "die Musik",
+          "auf der Strasse"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Musik",
+          "hörst",
+          "du",
+          "nach der Schule",
+          "auf der Strasse"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f008",
+    "variants": [
+      {
+        "parts": [
+          "Vor dem Essen",
+          "öffnet",
+          "er",
+          "die Tür",
+          "am Tisch"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Tür",
+          "öffnet",
+          "er",
+          "vor dem Essen",
+          "am Tisch"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f009",
+    "variants": [
+      {
+        "parts": [
+          "Am Wochenende",
+          "schließt",
+          "sie",
+          "die Tür",
+          "im Supermarkt"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Tür",
+          "schließt",
+          "sie",
+          "am Wochenende",
+          "im Supermarkt"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f010",
+    "variants": [
+      {
+        "parts": [
+          "Im Sommer",
+          "trinkt",
+          "es",
+          "die Milch",
+          "am Fenster"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Milch",
+          "trinkt",
+          "es",
+          "im Sommer",
+          "am Fenster"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f011",
+    "variants": [
+      {
+        "parts": [
+          "Im Winter",
+          "esse",
+          "ich",
+          "die Pizza",
+          "im Bus"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Pizza",
+          "esse",
+          "ich",
+          "im Winter",
+          "im Bus"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f012",
+    "variants": [
+      {
+        "parts": [
+          "Am Montag",
+          "liest",
+          "du",
+          "die Zeitung",
+          "auf dem Spielplatz"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Zeitung",
+          "liest",
+          "du",
+          "am Montag",
+          "auf dem Spielplatz"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f013",
+    "variants": [
+      {
+        "parts": [
+          "Heute",
+          "sucht",
+          "er",
+          "die Brille",
+          "im Park"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Brille",
+          "sucht",
+          "er",
+          "heute",
+          "im Park"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f014",
+    "variants": [
+      {
+        "parts": [
+          "Am Morgen",
+          "bringt",
+          "sie",
+          "die Flasche",
+          "zu Hause"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Flasche",
+          "bringt",
+          "sie",
+          "am Morgen",
+          "zu Hause"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f015",
+    "variants": [
+      {
+        "parts": [
+          "Am Nachmittag",
+          "holt",
+          "es",
+          "die Jacke",
+          "in der Schule"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Jacke",
+          "holt",
+          "es",
+          "am Nachmittag",
+          "in der Schule"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f016",
+    "variants": [
+      {
+        "parts": [
+          "Am Abend",
+          "mag",
+          "ich",
+          "die Musik",
+          "im Garten"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Musik",
+          "mag",
+          "ich",
+          "am Abend",
+          "im Garten"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f017",
+    "variants": [
+      {
+        "parts": [
+          "Jeden Tag",
+          "kennst",
+          "du",
+          "die Stadt",
+          "in der Kueche"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Stadt",
+          "kennst",
+          "du",
+          "jeden Tag",
+          "in der Kueche"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f018",
+    "variants": [
+      {
+        "parts": [
+          "In der Pause",
+          "schreibt",
+          "er",
+          "die Nummer",
+          "im Zimmer"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Nummer",
+          "schreibt",
+          "er",
+          "in der Pause",
+          "im Zimmer"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f019",
+    "variants": [
+      {
+        "parts": [
+          "Nach der Schule",
+          "lernt",
+          "sie",
+          "die Sprache",
+          "auf der Strasse"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Sprache",
+          "lernt",
+          "sie",
+          "nach der Schule",
+          "auf der Strasse"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f020",
+    "variants": [
+      {
+        "parts": [
+          "Vor dem Essen",
+          "zeigt",
+          "es",
+          "die Karte",
+          "am Tisch"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Karte",
+          "zeigt",
+          "es",
+          "vor dem Essen",
+          "am Tisch"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f021",
+    "variants": [
+      {
+        "parts": [
+          "Am Wochenende",
+          "sehe",
+          "ich",
+          "die Sonne",
+          "im Supermarkt"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Sonne",
+          "sehe",
+          "ich",
+          "am Wochenende",
+          "im Supermarkt"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f022",
+    "variants": [
+      {
+        "parts": [
+          "Im Sommer",
+          "kaufst",
+          "du",
+          "die Banane",
+          "am Fenster"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Banane",
+          "kaufst",
+          "du",
+          "im Sommer",
+          "am Fenster"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f023",
+    "variants": [
+      {
+        "parts": [
+          "Im Winter",
+          "braucht",
+          "er",
+          "die Antwort",
+          "im Bus"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Antwort",
+          "braucht",
+          "er",
+          "im Winter",
+          "im Bus"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f024",
+    "variants": [
+      {
+        "parts": [
+          "Am Montag",
+          "nimmt",
+          "sie",
+          "die Karte",
+          "auf dem Spielplatz"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Karte",
+          "nimmt",
+          "sie",
+          "am Montag",
+          "auf dem Spielplatz"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f025",
+    "variants": [
+      {
+        "parts": [
+          "Heute",
+          "hat",
+          "es",
+          "die Tasche",
+          "im Park"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Tasche",
+          "hat",
+          "es",
+          "heute",
+          "im Park"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f026",
+    "variants": [
+      {
+        "parts": [
+          "Am Morgen",
+          "finde",
+          "ich",
+          "die Katze",
+          "zu Hause"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Katze",
+          "finde",
+          "ich",
+          "am Morgen",
+          "zu Hause"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f027",
+    "variants": [
+      {
+        "parts": [
+          "Am Nachmittag",
+          "hörst",
+          "du",
+          "die Musik",
+          "in der Schule"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Musik",
+          "hörst",
+          "du",
+          "am Nachmittag",
+          "in der Schule"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f028",
+    "variants": [
+      {
+        "parts": [
+          "Am Abend",
+          "öffnet",
+          "er",
+          "die Flasche",
+          "im Garten"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Flasche",
+          "öffnet",
+          "er",
+          "am Abend",
+          "im Garten"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f029",
+    "variants": [
+      {
+        "parts": [
+          "Jeden Tag",
+          "schließt",
+          "sie",
+          "die Tür",
+          "in der Kueche"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Tür",
+          "schließt",
+          "sie",
+          "jeden Tag",
+          "in der Kueche"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f030",
+    "variants": [
+      {
+        "parts": [
+          "In der Pause",
+          "trinkt",
+          "es",
+          "die Limonade",
+          "im Zimmer"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Limonade",
+          "trinkt",
+          "es",
+          "in der Pause",
+          "im Zimmer"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f031",
+    "variants": [
+      {
+        "parts": [
+          "Nach der Schule",
+          "esse",
+          "ich",
+          "die Banane",
+          "auf der Strasse"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Banane",
+          "esse",
+          "ich",
+          "nach der Schule",
+          "auf der Strasse"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f032",
+    "variants": [
+      {
+        "parts": [
+          "Vor dem Essen",
+          "liest",
+          "du",
+          "die Geschichte",
+          "am Tisch"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Geschichte",
+          "liest",
+          "du",
+          "vor dem Essen",
+          "am Tisch"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f033",
+    "variants": [
+      {
+        "parts": [
+          "Am Wochenende",
+          "sucht",
+          "er",
+          "die Tasche",
+          "im Supermarkt"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Tasche",
+          "sucht",
+          "er",
+          "am Wochenende",
+          "im Supermarkt"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f034",
+    "variants": [
+      {
+        "parts": [
+          "Im Sommer",
+          "bringt",
+          "sie",
+          "die Pizza",
+          "am Fenster"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Pizza",
+          "bringt",
+          "sie",
+          "im Sommer",
+          "am Fenster"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f035",
+    "variants": [
+      {
+        "parts": [
+          "Im Winter",
+          "holt",
+          "es",
+          "die Flasche",
+          "im Bus"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Flasche",
+          "holt",
+          "es",
+          "im Winter",
+          "im Bus"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f036",
+    "variants": [
+      {
+        "parts": [
+          "Am Montag",
+          "mag",
+          "ich",
+          "die Pizza",
+          "auf dem Spielplatz"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Pizza",
+          "mag",
+          "ich",
+          "am Montag",
+          "auf dem Spielplatz"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f037",
+    "variants": [
+      {
+        "parts": [
+          "Heute",
+          "kennst",
+          "du",
+          "die Schule",
+          "im Park"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Schule",
+          "kennst",
+          "du",
+          "heute",
+          "im Park"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f038",
+    "variants": [
+      {
+        "parts": [
+          "Am Morgen",
+          "schreibt",
+          "er",
+          "die Antwort",
+          "zu Hause"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Antwort",
+          "schreibt",
+          "er",
+          "am Morgen",
+          "zu Hause"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f039",
+    "variants": [
+      {
+        "parts": [
+          "Am Nachmittag",
+          "lernt",
+          "sie",
+          "die Regel",
+          "in der Schule"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Regel",
+          "lernt",
+          "sie",
+          "am Nachmittag",
+          "in der Schule"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f040",
+    "variants": [
+      {
+        "parts": [
+          "Am Abend",
+          "zeigt",
+          "es",
+          "die Nummer",
+          "im Garten"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Nummer",
+          "zeigt",
+          "es",
+          "am Abend",
+          "im Garten"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f041",
+    "variants": [
+      {
+        "parts": [
+          "Jeden Tag",
+          "sehe",
+          "ich",
+          "die Straße",
+          "in der Kueche"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Straße",
+          "sehe",
+          "ich",
+          "jeden Tag",
+          "in der Kueche"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f042",
+    "variants": [
+      {
+        "parts": [
+          "In der Pause",
+          "kaufst",
+          "du",
+          "die Jacke",
+          "im Zimmer"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Jacke",
+          "kaufst",
+          "du",
+          "in der Pause",
+          "im Zimmer"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f043",
+    "variants": [
+      {
+        "parts": [
+          "Nach der Schule",
+          "braucht",
+          "er",
+          "die Sprache",
+          "auf der Strasse"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Sprache",
+          "braucht",
+          "er",
+          "nach der Schule",
+          "auf der Strasse"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f044",
+    "variants": [
+      {
+        "parts": [
+          "Vor dem Essen",
+          "nimmt",
+          "sie",
+          "die Brille",
+          "am Tisch"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Brille",
+          "nimmt",
+          "sie",
+          "vor dem Essen",
+          "am Tisch"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f045",
+    "variants": [
+      {
+        "parts": [
+          "Am Wochenende",
+          "hat",
+          "es",
+          "die Brille",
+          "im Supermarkt"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Brille",
+          "hat",
+          "es",
+          "am Wochenende",
+          "im Supermarkt"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f046",
+    "variants": [
+      {
+        "parts": [
+          "Im Sommer",
+          "finde",
+          "ich",
+          "die Nummer",
+          "am Fenster"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Nummer",
+          "finde",
+          "ich",
+          "im Sommer",
+          "am Fenster"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f047",
+    "variants": [
+      {
+        "parts": [
+          "Im Winter",
+          "hörst",
+          "du",
+          "die Musik",
+          "im Bus"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Musik",
+          "hörst",
+          "du",
+          "im Winter",
+          "im Bus"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f048",
+    "variants": [
+      {
+        "parts": [
+          "Am Montag",
+          "öffnet",
+          "er",
+          "die Tür",
+          "auf dem Spielplatz"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Tür",
+          "öffnet",
+          "er",
+          "am Montag",
+          "auf dem Spielplatz"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f049",
+    "variants": [
+      {
+        "parts": [
+          "Heute",
+          "schließt",
+          "sie",
+          "die Tür",
+          "im Park"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Tür",
+          "schließt",
+          "sie",
+          "heute",
+          "im Park"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f050",
+    "variants": [
+      {
+        "parts": [
+          "Am Morgen",
+          "trinkt",
+          "es",
+          "die Cola",
+          "zu Hause"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Cola",
+          "trinkt",
+          "es",
+          "am Morgen",
+          "zu Hause"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f051",
+    "variants": [
+      {
+        "parts": [
+          "Am Nachmittag",
+          "esse",
+          "ich",
+          "die Suppe",
+          "in der Schule"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Suppe",
+          "esse",
+          "ich",
+          "am Nachmittag",
+          "in der Schule"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f052",
+    "variants": [
+      {
+        "parts": [
+          "Am Abend",
+          "liest",
+          "du",
+          "die Zeitung",
+          "im Garten"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Zeitung",
+          "liest",
+          "du",
+          "am Abend",
+          "im Garten"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f053",
+    "variants": [
+      {
+        "parts": [
+          "Jeden Tag",
+          "sucht",
+          "er",
+          "die Karte",
+          "in der Kueche"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Karte",
+          "sucht",
+          "er",
+          "jeden Tag",
+          "in der Kueche"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f054",
+    "variants": [
+      {
+        "parts": [
+          "In der Pause",
+          "bringt",
+          "sie",
+          "die Tasche",
+          "im Zimmer"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Tasche",
+          "bringt",
+          "sie",
+          "in der Pause",
+          "im Zimmer"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f055",
+    "variants": [
+      {
+        "parts": [
+          "Nach der Schule",
+          "holt",
+          "es",
+          "die Tasche",
+          "auf der Strasse"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Tasche",
+          "holt",
+          "es",
+          "nach der Schule",
+          "auf der Strasse"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f056",
+    "variants": [
+      {
+        "parts": [
+          "Vor dem Essen",
+          "mag",
+          "ich",
+          "die Sonne",
+          "am Tisch"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Sonne",
+          "mag",
+          "ich",
+          "vor dem Essen",
+          "am Tisch"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f057",
+    "variants": [
+      {
+        "parts": [
+          "Am Wochenende",
+          "kennst",
+          "du",
+          "die Küche",
+          "im Supermarkt"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Küche",
+          "kennst",
+          "du",
+          "am Wochenende",
+          "im Supermarkt"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f058",
+    "variants": [
+      {
+        "parts": [
+          "Im Sommer",
+          "schreibt",
+          "er",
+          "die Liste",
+          "am Fenster"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Liste",
+          "schreibt",
+          "er",
+          "im Sommer",
+          "am Fenster"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f059",
+    "variants": [
+      {
+        "parts": [
+          "Im Winter",
+          "lernt",
+          "sie",
+          "die Geschichte",
+          "im Bus"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Geschichte",
+          "lernt",
+          "sie",
+          "im Winter",
+          "im Bus"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  },
+  {
+    "id": "f060",
+    "variants": [
+      {
+        "parts": [
+          "Am Montag",
+          "zeigt",
+          "es",
+          "die Farbe",
+          "auf dem Spielplatz"
+        ],
+        "subj": 2,
+        "akk": 3
+      },
+      {
+        "parts": [
+          "Die Farbe",
+          "zeigt",
+          "es",
+          "am Montag",
+          "auf dem Spielplatz"
+        ],
+        "subj": 2,
+        "akk": 0
+      }
+    ]
+  }
+]
